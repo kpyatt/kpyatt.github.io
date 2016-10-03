@@ -1,0 +1,504 @@
+<!DOCTYPE HTML PUBLIC >
+<!-- Research table size and multiple column sizes and row sizes. then get notes column to 
+right size. Then replicate rows for approx. 10. -->
+<HTML>
+   <HEAD>
+      <TITLE>Practice Note Card</TITLE>
+	  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jQuery UI Datepicker - Default functionality</title>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="/resources/demos/style.css">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+		
+}
+		<!-- Date picker functions. need to change these to datetime picker-->
+		$( function() {
+		$( "#datepicker1" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker2" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker3" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker4" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker5" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker6" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker7" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker8" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker9" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker10" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker11" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker12" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker13" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker14" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker15" ).datepicker();
+		} );$( function() {
+		$( "#datepicker16" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker17" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker18" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker19" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker20" ).datepicker();
+		} );
+		$( function() {
+		$( "#datepicker21" ).datepicker();
+		} );
+		
+		</script>
+  
+  <script type="text/javascript">
+  function strikeText(el, doIt) {
+		if (typeof el == 'string') el = document.getElementById(el);
+		el.style.textDecoration = (doIt)? 'line-through':'';
+  } );
+  </script>
+   </HEAD>
+   <body bgcolor="#E6E6FA">
+   
+   
+<table width="40%" border="1" bgcolor="#ffffff">
+    <tr>
+        <td width="1%">Priori</td>
+        <td width="1%">Signifi</td>
+        <td width=".5%">Spawn</td>
+		<td width="80%">Notes, Task, Event</td>
+		<td width="5%">Due/Expire</td>
+    </tr>
+    <tr>
+        <td id="td1" width=".5%">
+						<!-- DropDown menu for prioritizers-->
+			 <select>
+			  <option value=""></option>
+			  <option value="Asterisk"> &#42 </option>
+			  <option value="Exclaim">&#33 </option>
+			  <option value="Trident">&#9798 </option>
+			  <option value="Lightning">&#9889 </option>
+			  <option value="Warning">&#9888 </option>
+			  <option value="TaskComplete">&#10008 </option>
+			  <option value="TaskScheduled">&#62= </option>
+			  <option value="TaskMigrated">=&#60 </option></td>
+			</select> </td>
+			<!--<script>
+			<!--function getTextFunction() {
+			var text1 = note1.input.str();
+			}
+			
+			function strikeFunction() {
+			var priori1 = td1;
+			var result = priori1.strike(); 
+			if (td1.value="TaskComplete"){
+			document.getElementByID("note1").innerHTML ="result";
+			}
+			}
+			</script>-->
+			<input type="checkbox" onclick="strikeText('myText2', this.checked);">
+        <td width=".5%">
+						<!-- DropDown menu for tasks & events-->
+			 <select>
+			  <option value=""></option>
+			  <option value="Note">&#10134 </option>
+			  <option value="TaskDot">&#9899 </option>
+			  <option value="EventOpenDot">&#9898 </option>
+			  
+						<!-- Born Datepicker-->
+		<!--<td width=".5%"><input type="text" id="datepicker1"></td>-->
+
+						<!-- notes, tasks, events text field-->
+		<td width="10%"> <input width="10%" type="text" name="fname"></td>
+		<!--<td width="1%"><input type="text" id="datepicker2"></td>-->
+	</tr>
+	<tr>
+        <td width=".5%">
+						<!-- DropDown menu for prioritizers-->
+			 <select>
+			  <option value=""></option>
+			  <option value="Asterisk"> &#42 </option>
+			  <option value="Exclaim">&#33 </option>
+			  <option value="Trident">&#9798 </option>
+			  <option value="Lightning">&#9889 </option>
+			  <option value="Warning">&#9888 </option>
+			  <option value="TaskComplete">&#10008 </option>
+			  <option value="TaskScheduled">&#62= </option>
+			  <option value="TaskMigrated">=&#60 </option></td>
+			</select> </td>
+        <td width=".5%">
+						<!-- DropDown menu for tasks & events-->
+			 <select>
+			  <option value=""></option>
+			  <option value="Note">&#10134 </option>
+			  <option value="TaskDot">&#9899 </option>
+			  <option value="EventOpenDot">&#9898 </option>
+			  
+						<!-- Born Datepicker-->
+		<!--<td width=".5%"><input type="text" id="datepicker"></td>-->
+
+						<!-- notes, tasks, events text field-->
+		<td id="note1" width="20%"> <input width="20%" type="text" name="fname"></td>
+		<!--<td width="1%"><input type="text" id="datepicker2"></td>-->
+	</tr>
+	 <tr>
+        <td width="1%">50</td>
+        <td width="1%">30</td>
+        <td width="15%">20</td>
+	</tr>
+</table>
+   
+ 
+	  <i class="fa fa-circle-o" aria-hidden="true"></i>
+
+	  <table border="1" width="30%">
+        <col style="width:1%">
+        <col style="width:1%">
+        <col style="width:80%">
+		<col style="width:5%">
+		<col style="width:5%">
+        <thead>
+        <tr>
+                <th>Priory</th>
+                <th>Signify</th>
+				<th>Note, Task, Event</th>
+				<th>Spawn</th>
+				<th>Date/Expiry</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="tr01">
+				<td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td><input type="text" id="note1" value="ggg"></td>
+				<td width="1%"><input type="text" id="datepicker1"></td>
+				<td width="1%"><input type="text" id="datepicker2"></td>
+				<td><input type="checkbox" onclick="strikeText('note1', this.checked);">
+				</td>
+        </tr>
+		
+        <tr id="tr02">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker3"></td>
+				<td width="1%"><input type="text" id="datepicker4"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+		<tr id="tr03">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker5"></td>
+				<td width="1%"><input type="text" id="datepicker6"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+		<tr id="tr04">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker1"></td>
+				<td width="1%"><input type="text" id="datepicker2"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+		<tr id="tr03">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker1"></td>
+				<td width="1%"><input type="text" id="datepicker2"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+		<tr id="tr03">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker1"></td>
+				<td width="1%"><input type="text" id="datepicker2"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+		<tr id="tr03">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker1"></td>
+				<td width="1%"><input type="text" id="datepicker2"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+		<tr id="tr03">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker1"></td>
+				<td width="1%"><input type="text" id="datepicker2"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+		<tr id="tr03">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker1"></td>
+				<td width="1%"><input type="text" id="datepicker2"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+		<tr id="tr03">
+		
+                <td>
+				<!-- DropDown menu for prioritizers-->
+				<select>
+					<option value=""></option>
+					<option value="Asterisk"> &#42 </option>
+					<option value="Exclaim">&#33 </option>
+					<option value="Trident">&#9798 </option>
+					<option value="Lightning">&#9889 </option>
+					<option value="Warning">&#9888 </option>
+					<option value="TaskComplete">&#10008 </option>
+					<option value="TaskScheduled">&#62= </option>
+					<option value="TaskMigrated">=&#60 </option></td>
+				</select>
+                
+				<td>
+				<!-- DropDown menu for tasks & events-->
+				<select>
+				  <option value=""></option>
+				  <option value="Note">&#10134 </option>
+				  <option value="TaskDot">&#9899 </option>
+				  <option value="EventOpenDot">&#9898 </option></td>
+				<td id="note1" width="34px"> <input width="100%" type="text" name="fname"></td>
+				<td width="1%"><input type="text" id="datepicker1"></td>
+				<td width="1%"><input type="text" id="datepicker2"></td>
+				<td>8.4 mg
+				</td>
+        </tr>
+		
+        </tbody>
+
+
+   </BODY>
+</HTML>
