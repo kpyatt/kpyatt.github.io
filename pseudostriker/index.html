@@ -1,0 +1,64 @@
+<!-- strikeText function(s)-->
+
+<p id="demo"></p>
+
+<script type="text/javascript">
+
+function strikeText(el, doIt) {
+if (typeof el == 'string') el = document.getElementById(el);
+el.style.textDecoration = (doIt)? 'line-through':'';
+}
+
+function strikeText2(el, doIt) {
+if (typeof el == 'string') el = document.getElementById(el);
+el.style.textDecoration = (doIt)? 'line-through':'';
+}
+
+function strikeText3(el, doIt) {
+if (typeof el == 'string') el = document.getElementById(el);
+el.style.textDecoration = (doIt)? 'line-through':'';
+}
+
+function myFunction() {
+	var x = document.getElementById("myText").value;
+	document.getElementById("demo").innerHTML = x;
+	}
+</script>
+
+<input type="checkbox" onclick="strikeText('s1', this.checked);">
+<span id="s1">Some text</span><br>
+
+<input type="checkbox" onclick="strikeText2('awesome01', this.checked);">
+<th id="awesome01"></th><br>
+
+<input type="checkbox" onclick="strikeText3('myText', this.checked);">
+<th id="abc"></th><br>
+
+<!--pseudoTable with text input field example. Notice there are two table cell ids, and there is one that has 
+a text input field "myText, the text entry for which gets created as a variable.-->
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+	<th>Striker</th>
+  </tr>
+  <tr>
+    <td id ="awesome01">Jill</td>
+    <td <!--id="awesome02"-->
+		<input type="text" id="myText" value="ff">
+		</td>
+    <td><button onclick="myFunction()">Strike it</button></td>
+
+	
+  </tr>
+  <tr>
+    <td>eve</td>
+    <td id="fart">Jackson</td>
+    <td>ery</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
